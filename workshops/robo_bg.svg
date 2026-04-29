@@ -1,0 +1,167 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 700" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <linearGradient id="floorFade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#5e9bd0" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#5e9bd0" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="cityFade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7ab0d4" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#7ab0d4" stop-opacity="0.25"/>
+    </linearGradient>
+    <linearGradient id="mountFade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#a4c5dc" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#a4c5dc" stop-opacity="0.15"/>
+    </linearGradient>
+    <linearGradient id="robotFill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e6eef7"/>
+      <stop offset="100%" stop-color="#bccbdb"/>
+    </linearGradient>
+    <linearGradient id="visor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#b6e7ee"/>
+      <stop offset="100%" stop-color="#5fb1c1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Mountain silhouettes -->
+  <g stroke="#a4c5dc" stroke-width="2" fill="url(#mountFade)" stroke-linejoin="round" opacity="0.85">
+    <polygon points="200,260 320,140 440,260"/>
+    <polygon points="380,270 480,130 580,270"/>
+    <polygon points="540,270 620,170 700,270"/>
+  </g>
+
+  <!-- Cityscape -->
+  <g fill="url(#cityFade)" stroke="#5e9bd0" stroke-width="2" stroke-linejoin="miter" opacity="0.9">
+    <rect x="60"  y="200" width="36" height="200"/>
+    <rect x="105" y="170" width="44" height="230"/>
+    <rect x="158" y="120" width="36" height="280"/>
+    <rect x="204" y="150" width="40" height="250"/>
+    <rect x="252" y="100" width="50" height="300"/>
+    <rect x="312" y="140" width="34" height="260"/>
+    <rect x="356" y="180" width="40" height="220"/>
+    <rect x="404" y="140" width="42" height="260"/>
+    <rect x="455" y="200" width="38" height="200"/>
+    <rect x="500" y="170" width="44" height="230"/>
+    <rect x="552" y="220" width="34" height="180"/>
+    <rect x="595" y="190" width="40" height="210"/>
+    <rect x="643" y="240" width="34" height="160"/>
+    <rect x="685" y="210" width="38" height="190"/>
+  </g>
+
+  <!-- Building windows -->
+  <g fill="#ffffff" opacity="0.55">
+    <rect x="116" y="190" width="6" height="6"/>
+    <rect x="128" y="190" width="6" height="6"/>
+    <rect x="116" y="210" width="6" height="6"/>
+    <rect x="128" y="210" width="6" height="6"/>
+    <rect x="116" y="230" width="6" height="6"/>
+    <rect x="128" y="230" width="6" height="6"/>
+    <rect x="170" y="160" width="6" height="6"/>
+    <rect x="182" y="160" width="6" height="6"/>
+    <rect x="170" y="180" width="6" height="6"/>
+    <rect x="182" y="180" width="6" height="6"/>
+    <rect x="170" y="200" width="6" height="6"/>
+    <rect x="182" y="200" width="6" height="6"/>
+    <rect x="170" y="220" width="6" height="6"/>
+    <rect x="182" y="220" width="6" height="6"/>
+    <rect x="265" y="130" width="6" height="6"/>
+    <rect x="277" y="130" width="6" height="6"/>
+    <rect x="289" y="130" width="6" height="6"/>
+    <rect x="265" y="150" width="6" height="6"/>
+    <rect x="277" y="150" width="6" height="6"/>
+    <rect x="289" y="150" width="6" height="6"/>
+    <rect x="265" y="170" width="6" height="6"/>
+    <rect x="277" y="170" width="6" height="6"/>
+    <rect x="289" y="170" width="6" height="6"/>
+    <rect x="416" y="170" width="6" height="6"/>
+    <rect x="428" y="170" width="6" height="6"/>
+    <rect x="416" y="190" width="6" height="6"/>
+    <rect x="428" y="190" width="6" height="6"/>
+    <rect x="510" y="200" width="6" height="6"/>
+    <rect x="522" y="200" width="6" height="6"/>
+    <rect x="534" y="200" width="6" height="6"/>
+    <rect x="510" y="220" width="6" height="6"/>
+    <rect x="522" y="220" width="6" height="6"/>
+    <rect x="534" y="220" width="6" height="6"/>
+  </g>
+
+  <!-- Perspective grid floor -->
+  <g stroke="#5e9bd0" stroke-width="1.4" fill="none" opacity="0.75">
+    <!-- horizontal lines -->
+    <line x1="0"   y1="410" x2="900" y2="410"/>
+    <line x1="0"   y1="430" x2="900" y2="430"/>
+    <line x1="0"   y1="455" x2="900" y2="455"/>
+    <line x1="0"   y1="490" x2="900" y2="490"/>
+    <line x1="0"   y1="540" x2="900" y2="540"/>
+    <line x1="0"   y1="610" x2="900" y2="610"/>
+    <!-- perspective lines (radiating from a vanishing point ~ at 600,400) -->
+    <line x1="600" y1="400" x2="120"  y2="700"/>
+    <line x1="600" y1="400" x2="240"  y2="700"/>
+    <line x1="600" y1="400" x2="360"  y2="700"/>
+    <line x1="600" y1="400" x2="480"  y2="700"/>
+    <line x1="600" y1="400" x2="600"  y2="700"/>
+    <line x1="600" y1="400" x2="720"  y2="700"/>
+    <line x1="600" y1="400" x2="840"  y2="700"/>
+    <line x1="600" y1="400" x2="960"  y2="700"/>
+  </g>
+
+  <!-- Robot -->
+  <g stroke="#3a5b85" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round">
+    <!-- antenna -->
+    <line x1="730" y1="160" x2="730" y2="130" stroke-width="3"/>
+    <circle cx="730" cy="125" r="6" fill="#3a5b85"/>
+    <!-- head -->
+    <rect x="685" y="155" width="92" height="92" rx="22" fill="url(#robotFill)"/>
+    <!-- visor -->
+    <rect x="697" y="178" width="68" height="32" rx="14" fill="url(#visor)"/>
+    <!-- visor highlight -->
+    <rect x="704" y="184" width="14" height="8" rx="3" fill="#ffffff" opacity="0.6"/>
+    <!-- ear vents -->
+    <line x1="685" y1="195" x2="678" y2="195" stroke-width="3"/>
+    <line x1="777" y1="195" x2="784" y2="195" stroke-width="3"/>
+    <!-- neck -->
+    <rect x="715" y="247" width="32" height="12" fill="#bccbdb" stroke-width="2"/>
+    <!-- shoulders / body -->
+    <path d="M666 274 Q666 263 678 263 L784 263 Q796 263 796 274 L796 360 Q796 372 784 372 L678 372 Q666 372 666 360 Z" fill="url(#robotFill)"/>
+    <!-- chest panel -->
+    <rect x="700" y="285" width="62" height="38" rx="6" fill="#dbe6f1" stroke-width="2"/>
+    <line x1="710" y1="295" x2="752" y2="295" stroke="#9bb1c8" stroke-width="2"/>
+    <line x1="710" y1="305" x2="752" y2="305" stroke="#9bb1c8" stroke-width="2"/>
+    <line x1="710" y1="315" x2="740" y2="315" stroke="#9bb1c8" stroke-width="2"/>
+    <!-- power core -->
+    <circle cx="731" cy="345" r="8" fill="#5fb1c1" stroke="#3a5b85" stroke-width="2"/>
+    <!-- arms -->
+    <path d="M652 270 L630 295 L630 360 Q630 372 642 372 L660 372 Q672 372 672 360 L672 290 Z" fill="url(#robotFill)"/>
+    <path d="M810 270 L832 295 L832 360 Q832 372 820 372 L802 372 Q790 372 790 360 L790 290 Z" fill="url(#robotFill)"/>
+    <!-- forearm out, holding holographic panel -->
+    <rect x="600" y="372" width="62" height="20" rx="8" fill="url(#robotFill)"/>
+    <rect x="790" y="372" width="62" height="20" rx="8" fill="url(#robotFill)"/>
+    <!-- legs -->
+    <rect x="685" y="372" width="36" height="80" rx="8" fill="url(#robotFill)"/>
+    <rect x="741" y="372" width="36" height="80" rx="8" fill="url(#robotFill)"/>
+    <!-- feet -->
+    <rect x="678" y="448" width="50" height="14" rx="4" fill="#bccbdb"/>
+    <rect x="734" y="448" width="50" height="14" rx="4" fill="#bccbdb"/>
+  </g>
+
+  <!-- Holographic interface element -->
+  <g opacity="0.85">
+    <rect x="546" y="380" width="120" height="68" rx="8" fill="#a8e2ea" opacity="0.45" stroke="#5fb1c1" stroke-width="2"/>
+    <line x1="558" y1="395" x2="640" y2="395" stroke="#3a8a93" stroke-width="2"/>
+    <line x1="558" y1="408" x2="620" y2="408" stroke="#3a8a93" stroke-width="2"/>
+    <line x1="558" y1="421" x2="650" y2="421" stroke="#3a8a93" stroke-width="2"/>
+    <line x1="558" y1="434" x2="610" y2="434" stroke="#3a8a93" stroke-width="2"/>
+  </g>
+
+  <!-- Floor highlight stripe -->
+  <rect x="0" y="455" width="900" height="3" fill="url(#floorFade)" opacity="0.6"/>
+
+  <!-- Tiny dots / data particles around robot -->
+  <g fill="#5fb1c1" opacity="0.7">
+    <circle cx="640" cy="170" r="2"/>
+    <circle cx="660" cy="200" r="1.5"/>
+    <circle cx="850" cy="180" r="2"/>
+    <circle cx="870" cy="210" r="1.5"/>
+    <circle cx="540" cy="430" r="2"/>
+    <circle cx="520" cy="380" r="1.5"/>
+  </g>
+</svg>
